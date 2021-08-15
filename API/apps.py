@@ -6,6 +6,7 @@ class APIConfig(AppConfig):
     name = 'API'
 
 
+# Setting for allowing the signals file to be read and used
 class UsersConfig(AppConfig):
     name = 'API'
 

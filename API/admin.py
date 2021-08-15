@@ -1,10 +1,8 @@
 from django.contrib import admin
-from .models import Loan, Document, Budget, Category, Transaction
+from .models import Document,  Category
 
-# Register your models here.
-
-admin.site.register(Loan)
+# Register model for admin site access
 admin.site.register(Document)
-admin.site.register(Budget)
 admin.site.register(Category)
-admin.site.register(Transaction)
+
+
